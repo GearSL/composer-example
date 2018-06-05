@@ -1,0 +1,21 @@
+{
+    "name": "gear/composer-example-package",
+    "description": "example composer package",
+    "type": "labrary",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-clause",
+    "authors": [
+        {
+            "name": "Ilyas Ismailov",
+            "email": "ilyas.main@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "lukesky\\parser": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
